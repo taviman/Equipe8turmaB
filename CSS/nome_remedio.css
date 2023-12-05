@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Serif', 'Playfair Display';
+    background-color: #d2dee8
+}
+
+footer{
+    height: 100%;
+}
+
+.foto_seta{
+    height: auto;
+    width: 60px; 
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: end;
+    align-items: center;
+    font-family: 'PT Serif', 'Playfair Display';
+}
+header h1{
+    font-family: 'PT Serif', 'Playfair Display';
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.fonte_titulo{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+section{
+    margin-bottom: 2.5rem;
+}
+
+h4{
+    margin-bottom: 1rem;
+}
+
+ul.informacoes{
+    list-style: none;
+}
+
+ul.informacoes li{
+    margin-bottom: 0.5rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0rem;
+    border: .1rem solid black;
+    text-align: center;
+    background-color: #ffcceb;
+}
+
+.bula-box{
+    text-decoration: none;
+    color: black;
+}
+

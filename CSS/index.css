@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Serif', 'Playfair Display';
+    background-color: #d2dee8
+}
+
+.foto_perfil{
+    height: auto;
+    width: 100px; 
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: end;
+    align-items: center;
+    font-family: 'PT Serif', 'Playfair Display';
+}
+header h1{
+    font-family: 'PT Serif', 'Playfair Display';
+}
+
+.foto_add_remedio{
+    height: auto;
+    width: 200px; 
+}
+
+main{
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    text-align: center;
+    line-height: 1.5;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.divisao-quadrados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .1rem solid black;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: #ffcceb;
+}
+
+
